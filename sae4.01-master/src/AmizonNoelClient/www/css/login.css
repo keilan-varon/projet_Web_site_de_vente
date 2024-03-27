@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+
+body {
+    font-family: 'Nunito', sans-serif;
+    background-color: #b8cadf;
+    margin: 0;
+    font-size: 1.4rem;
+}
+
+.connexion-section {
+    margin: auto;
+}
+
+p {
+    text-align: center;
+}
+
+h3 {
+    color: #002C9C
+}
+
+.bgimage{
+    filter: blur(5px);
+    -webkit-filter: blur(5px);
+    width:100vw;
+    height:100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.logo{
+    display: block;
+    width: 200px;
+    margin: auto;
+}
+
+section {
+    background-color: rgb(245, 245, 245);
+    border: 1px solid black;
+    border-radius: 40px;
+    box-shadow: 2px 4px 2px 4px gray;
+    margin: 0;
+    padding: 75px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+ 
+h1 {
+    font-weight: bold;
+    text-align: center;
+}
+
+input {
+    display: block;
+    width: 100%;
+}
+
+input[type="submit"] {
+    background-color: #3D712B;
+    color: white;
+    padding: 8px 32px;
+    font-size: inherit;
+    font-family: inherit;
+    border: 1px solid gray;
+    margin: auto;
+    margin-top: 8px;
+}
+
+/* Champs de saisie */
+
+#login, #mdp {
+    font-size: 1.6rem;
+    font-family: inherit;
+    outline: none;
+    margin-bottom: 16px;
+}
+
+input[type="submit"]:hover {
+    cursor: pointer;
+}
+
+input[type="submit"]:active {
+    background-color: #aace9f;
+}
+
+.error-message {
+    color: red;
+    text-align: center;
+}
+

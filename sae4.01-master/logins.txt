@@ -1,0 +1,10 @@
+boubacar.embalo@gmail.com:motdepasse
+boubs@gmail.com:secondmdp
+
+
+"USER" : "manfreda1u_appli"
+"PASSWORD" : "Angelsa?!"
+"DATABASE_NAME","manfreda1u_sae_4_01"
+"HOST","devbdd.iutmetz.univ-lorraine.fr"
+
+lancer le serveur php : php -c php.ini-development -S localhost:4000 (dans src/AmizonNoelServer)

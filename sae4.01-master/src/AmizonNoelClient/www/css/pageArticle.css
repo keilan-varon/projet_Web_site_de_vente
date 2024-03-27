@@ -1,0 +1,168 @@
+body {
+    font-family: 'Nunito', sans-serif;
+    margin: 0;
+    height: 100%;
+    background-color: #D9D9D9;
+}
+
+.header-site {
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 15%;
+    background-color: #979797;
+    color: white;
+    font-weight: bold;
+    padding: 16px;
+}
+
+h1{
+    color: #002C9C;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: gray;
+}
+
+.logo-loupe{
+    margin-left: 50px;
+    margin-top: 5px;
+    max-width: 2.5vw;
+}
+
+.logo-panier{
+    max-width: 2.5vw;
+}
+
+li{
+    margin-right: 20vw;
+}
+
+nav li h1{
+    margin-left: 8vw;
+    margin-right: 8vw;
+}
+
+li:first-child {
+    margin-right: none;
+}
+li:nth-child(2) {
+    margin-right: 7vw;
+}
+li:nth-child(4) {
+    margin-right: 1vw;
+}
+li:last-child {
+    margin-left: 0;
+    margin-right: 2vw;
+}
+
+.btn-deconnexion {
+    background-color: #002C9C;
+    color: white;
+    padding: 8px;
+    font-size: 16px;
+    font-family: inherit;
+    margin: auto;
+    margin-top: 0px;
+    margin-left: 0px;
+}
+
+#detail{
+    font-weight: bold;
+}
+
+/*section {
+   justify-content: center;
+   align-items: center;
+}*/
+
+#part1 {
+    display: flex;
+}
+
+#part2 {
+    margin-left: 25px;
+}
+
+h1 {
+    font-size: 18px;
+}
+
+input {
+    display: block;
+}
+
+.ref-art{
+	display : inline-block;
+	width : 40%;
+	vertical-align : top;
+    font-size: 16px;
+}
+
+
+.btn-ajout-panier {
+    background-color: #002C9C;
+    color: white;
+    padding: 8px;
+    font-size: 16px;
+    font-family: inherit;
+    margin: auto;
+    margin-top: 20px;
+    margin-left: 0px;
+}
+
+.choix-radio{
+    display: flex;
+}
+
+.radio{
+    margin: 0 1.81em 0 0;
+}
+
+input[type="submit"]:hover {
+    cursor: pointer;
+}
+
+input[type="submit"]:active {
+    background-color: #5b8aff;
+}
+
+img{
+    cursor: pointer;
+}
+
+.pull{
+    width: 600px;
+    margin-left: 25px;
+    margin-top: 25px;
+}
+
+.red {
+    width: 25px;
+}
+
+.blue {
+    width: 28px;
+}
+
+.green {
+    width: 26.5px;
+}
+
+.grey{
+    width: 28px;
+}
+
+.text-grey{
+    color:#707070;
+}
+

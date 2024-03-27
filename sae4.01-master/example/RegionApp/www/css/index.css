@@ -1,0 +1,42 @@
+
+* {
+    font-family: monospace;
+}
+
+h1 {
+    text-align: center;
+    background-color: rgb(0, 0, 119); 
+    justify-content: center;
+    align-items: center;
+    height: 15%;
+    font-size: 40px;
+    color: white;
+    font-weight: bold;
+    padding: 16px;
+    margin: auto;
+}
+
+button {
+    
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 7px 10px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+
+
+.region-item {
+    box-shadow: 10px 2px 2px rgb(192, 192, 192);
+    background-color: rgb(212, 212, 212);
+    border: 1px solid rgb(61, 61, 61);
+    width: 60vw;
+    margin: auto;
+    margin-bottom: 8px;
+    padding-left: 10px;
+    font-size: 20px;
+}

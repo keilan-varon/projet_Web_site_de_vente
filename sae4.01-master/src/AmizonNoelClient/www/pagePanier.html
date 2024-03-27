@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Mon panier</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"  crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="../www/css/panier.css"> 
+</head>
+<body>
+	<header>
+		<nav class="navbar navbar-expand-lg navbar-light bg-danger">
+			<div class="container-fluid">
+			  <a class="navbar-brand" href="accueil.html">
+				<img src="img/amizon_blanc.png" alt="" class="d-inline-block align-text-top logo">
+			  </a>
+			  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			  </button>
+			  <div class="collapse navbar-collapse" id="navbarNav">
+				<!-- <ul class="navbar-nav">
+				  <li class="nav-item">
+					<a class="nav-link active" aria-current="page" href="#">Pull</a>
+				  </li>
+				  <li class="nav-item">
+					<a class="nav-link" href="#">Bonnet</a>
+				  </li>
+				  <li class="nav-item">
+					<a class="nav-link" href="#">Gants</a>
+				  </li>
+				</ul> -->
+				<ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+				  <li class="nav-item">
+					<a class="nav-link" href="#"><i class='fas fa-shopping-cart'></i></a>
+				  </li>
+				  <li class="nav-item">
+					<a class="nav-link" href="pageCommande.html"><i class='fas fa-box'></i></a>
+				</li>
+				  <li class="nav-item">
+					<a class="nav-link" href="favori.html"><i class='fas fa-heart'></i></a>
+				  </li>
+				  <li class="nav-item">
+					<a class="nav-link" href="#">Déconnexion</a>
+				  </li>
+				</ul>
+			  </div>
+			</div>
+		</nav>
+	</header>
+		<div class="head">
+			<span><h2>Mon panier</h2></span>
+			<button type="submit" class="bouton-commander">Commander</button>
+		</div>
+	<main>
+		<section class="panier">
+			<ul class="liste-panier">
+				<li class="ligne-panier">
+					<img src="../www/img/pull.jpeg">
+					<article class="info-produit">
+						<span class="nom-produit">PULL RUDOLPHE MOCHE</span>
+						<div class="colonnes-produit">
+							<span class = "categorie-produit">Catégorie : pull</span>
+							<span class="couleur-produit">Coloris : rouge</span>
+							<span class="taille-produit">Taille : M</span>
+						</div>
+					</article>
+					
+					<div class="colonnes-prix-quantite">
+						<span class="quantite-produit">Qté : 1</span></br>
+						
+					</div>
+					
+				</li> 
+				<li></li>
+				
+				<div class="prix-produit">
+					<a href="#" class="bouton-vider-panier">Supprimer l'article</a>
+					<span>10€</span>
+				</div>
+			</ul>
+			
+			
+		</section>
+         <!--<section class="panier">
+
+			<ul class="liste-panier">
+				<li class="ligne-panier">
+					<span class="nom-produit">Produit 1</span>
+					<span class="prix-produit">10€</span>
+					<span class="quantite-produit">x1</span>
+				</li>
+				<li class="ligne-panier">
+					<span class="nom-produit">Produit 2</span>
+					<span class="prix-produit">20€</span>
+					<span class="quantite-produit">x2</span><input type="number" value="0" min="0" max="99" class="bouton-quantite-valeur">
+				</li>
+			</ul>
+
+			
+
+			<button type="submit" class="bouton-commander">Commander</button>
+
+			<a href="#" class="bouton-continuer-achat">Continuer mes achats</a>
+
+			<a href="#" class="bouton-vider-panier">Vider le panier</a>
+
+
+         </section>-->
+		
+	</main>
+
+<footer>
+	<div class="total-panier">
+		<span>Total :</span>
+		<span>50€</span>
+	</div>
+</footer>
+
+</body>
+</html>
